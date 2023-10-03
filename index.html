@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #img1,
+      #img2 {
+        height: 100px;
+        width: 100px;
+        border: none;
+      }
+      .cnt {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      #win {
+        text-align: center;
+      }
+      button {
+        border: 1px solid black;
+        background-color: rgb(214, 101, 8);
+        color: white;
+        padding: 10px;
+        border-radius: 4px;
+      }
+      input {
+        padding: 6px;
+        font-size: 18px;
+      }
+      table {
+        margin: 100px;
+      }
+      th {
+        padding: 20px;
+      }
+      td {
+        padding: 10px 20px;
+      }
+      #fw {
+        text-align: center;
+        padding: 30px;
+      }
+      .fl{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      #img3{
+        height: 400px;
+        width: 400px;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cnt">
+      <div>
+        <input id="n" type="text" placeholder="player1"  />
+        <button id="btn" onclick="myfun()">click me</button>
+        <img
+          id="img1"
+          src="https://i.pinimg.com/1200x/86/b1/7b/86b17b8da4eea5b40c540bb1a345e372.jpg"
+          alt=""
+        />
+        <div id="show"></div>
+      </div>
+      <div>
+        <input id="n1" type="text" placeholder="player2" />
+        <button id="btn1" onclick="myfun2()">Click here</button>
+        <img
+          id="img2"
+          src="https://i.pinimg.com/1200x/86/b1/7b/86b17b8da4eea5b40c540bb1a345e372.jpg"
+          alt=""
+        />
+        <div id="showme"></div>
+      </div>
+    </div>
+    <div id="win">winner: <span id="win1"></span></div>
+    <div class="fl">
+      <table id="tb1" cellspan="2" cellpadding="5">
+        <tr>
+          <th>Result 1</th>
+          <th>Result 2</th>
+          <th></th>
+        </tr>
+      </table>
+      <div class="forImg">
+        <img
+          id="img3"
+          src="https://cdn.pixabay.com/animation/2023/02/11/17/56/17-56-09-475_512.gif"
+          alt=""
+        />
+      </div>
+    </div>
+    <div id="fw"></div>
+  </body>
+  <script src="sm2.js"></script>
+</html>
