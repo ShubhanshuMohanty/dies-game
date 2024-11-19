@@ -1,1 +1,1 @@
-# dies-game
+# dies-games
